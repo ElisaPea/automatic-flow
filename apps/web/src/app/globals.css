@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@import '@af/ui/styles.css';
+@source '../../../../packages/ui/src';
+
+body {
+  @apply bg-surface text-fg antialiased;
+}

@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Automatic Flow",
+    "slug": "automatic-flow",
+    "scheme": "automaticflow",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.automaticflow.app"
+    },
+    "android": {
+      "package": "com.automaticflow.app"
+    },
+    "plugins": ["expo-router", "expo-secure-store", "expo-web-browser", "@clerk/expo"],
+    "experiments": { "typedRoutes": true }
+  }
+}

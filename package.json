@@ -1,0 +1,27 @@
+{
+  "name": "automatic-flow",
+  "private": true,
+  "packageManager": "pnpm@12.14.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@af/web...",
+    "dev:api": "turbo run dev --filter=@af/api...",
+    "dev:mobile": "turbo run dev --filter=@af/mobile...",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:migrate": "pnpm --filter @af/api db:migrate"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.11.13",
+    "eslint": "^9.39.0",
+    "typescript": "~5.9.3"
+  }
+}

@@ -1,0 +1,15 @@
+/* Tokens de diseño. Mantener sincronizados con packages/ui-native/src/theme/tokens.ts */
+@theme {
+  --color-brand: #4f46e5;
+  --color-brand-fg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f4f5;
+  --color-fg: #18181b;
+  --color-fg-muted: #71717a;
+  --color-border: #e4e4e7;
+  --color-danger: #dc2626;
+  --color-danger-bg: #fef2f2;
+  --color-success: #16a34a;
+  --color-success-bg: #f0fdf4;
+  --radius-ui: 0.625rem;
+}

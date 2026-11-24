@@ -1,0 +1,22 @@
+node_modules
+dist
+.next
+.turbo
+.vercel
+.expo
+coverage
+*.tsbuildinfo
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
+
+# Variables de entorno reales (nunca se commitean). Las plantillas *.example sí.
+.env
+.env.*
+!.env*.example
+
+# Expo nativo generado
+apps/mobile/ios
+apps/mobile/android
+apps/mobile/expo-env.d.ts
+next-env.d.ts
